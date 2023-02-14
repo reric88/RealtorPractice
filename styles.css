@@ -1,0 +1,281 @@
+@font-face {
+    font-family: newRodin;
+    src: url(./Typeface/FOTNewRodin\ Pro\ L.otf);
+}
+
+@font-face {
+    font-family: newRodinB;
+    src: url(./Typeface/FOTNewRodin\ Pro\ B.otf);
+}
+
+@font-face {
+    font-family: newRodinUB;
+    src: url(./Typeface/FOTNewRodin\ Pro\ UB.otf);
+}
+
+@font-face {
+    font-family: newRodinEB;
+    src: url(./Typeface/FOT-NewRodin\ Pro\ EB.otf);
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: newRodin, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.divListing1 {
+    background-color: #aaaaaa44;
+    width: 33%;
+    height: 30%;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.divListing1 h3 {
+    text-align: center;
+}
+
+.divListing1box {
+    margin: 0px 5%;
+    width:90%;
+    height:300px;
+    object-fit: cover;
+}
+
+.divListing1 img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.divListing1 p {
+    font-size: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;  
+}
+
+@media screen and (max-width: 450px) {
+    .divListing1 {
+        width: 100%;
+    }
+}
+
+.divListing2 h3 {
+    text-align: center;
+}
+
+.divListing2 {
+    background-color: #aaaaaa44;
+    width: 33%;
+    height: 30%;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.divListing2box {
+    margin: 0px 5%;
+    width:90%;
+    height:300px;
+    object-fit: cover;
+}
+
+.divListing2 img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.divListing2 p {
+    font-size: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    
+}
+
+@media screen and (max-width: 450px) {
+    .divListing2 {
+        width: 100%;
+    }
+}
+
+.divListing3 h3 {
+    text-align: center;
+}
+
+.divListing3 {
+    background-color: #aaaaaa44;
+    width: 33%;
+    height: 30%;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.divListing3box {
+    margin: 0px 5%;
+    width:90%;
+    height:300px;
+    object-fit: cover;
+}
+
+.divListing3 img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.divListing3 p {
+    font-size: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    
+}
+
+@media screen and (max-width: 450px) {
+    .divListing3 {
+        width: 100%;
+    }
+}
+
+.divSheilaHeader {
+    text-align: center;
+    object-fit: cover;
+    position: relative;
+    bottom: 75%;
+}
+
+.divSheilaHeader h1 {
+    font-family: newRodin;
+    color: #ffffff;
+    /* font-size: 150%; */
+    margin: 0;
+}
+
+.divSheilaHeader p {
+    font-family: newRodin;
+    color: #ffffff;
+    /* font-size: 100%; */
+    margin: 0;
+}
+
+
+.bannerImage {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    opacity: 40%;
+}
+
+.bannerBox {
+    background-color: #000000;
+    width: 100%;
+    height: 300px;
+    /* height: 40vh; */
+}
+
+hr {
+    border: 1px solid #008888;
+    margin: 0px;
+}
+
+
+
+/* Footer Table */
+
+.tableCategory {
+    font-family: newRodin;
+    font-size: 18px;
+    
+}
+
+th {
+    font-family: newRodin;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+a {
+    color: #008888;
+}
+
+a:hover {
+    color: #004444;
+}
+
+a:active {
+    color: #aaeeee;
+}
+
+a:visited {
+    color: #002222;
+}
+
+.footerText {
+    text-align: center;
+    font-size: 1vw;
+}
+
+table {
+    width: 100%;
+    border: 0px;
+
+}
+
+.divFooter {
+    width: 100%;
+    background-color: #aaaaaa44;
+    margin: 0px;
+}
+
+/* Adaptive text sizing */
+/* 
+@media all and (min-width: 200px) {
+    body {font-size: .4em;}
+    .bannerBox {height: 40vh;}
+}
+@media all and (min-width: 400px) {
+    body {font-size: .8em;}
+    .bannerBox {height: 45vh;}
+}
+@media all and (min-width: 600px) {
+    body {font-size: 1em;}
+    .bannerBox {height: 50vh;}
+}
+@media all and (min-width: 800px) {
+    body {font-size: 1.1em;}
+    .bannerBox {height: 53vh;}
+}
+@media all and (min-width: 1000px) {
+    body {font-size: 1.2em;}
+    .bannerBox {height: 56vh;}
+}
+@media all and (min-width: 1200px) {
+    body {font-size: 1.3em;}
+    .bannerBox {height: 60vh;}
+}
+@media all and (min-width: 1400px) {
+    body {font-size: 1.4em;}
+    .bannerBox {height: 62vh;}
+}
+@media all and (min-width: 1600px) {
+    body {font-size: 1.5em;}
+    .bannerBox {height: 64vh;}
+}
+@media all and (min-width: 1800px) {
+    body {font-size: 1.6em;}
+    .bannerBox {height: 66vh;}
+}
+@media all and (min-width: 2000px) {
+    body {font-size: 1.7em;}
+    .bannerBox {height: 75vh;}
+} */
